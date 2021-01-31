@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v3.1": {
       "Tests/1.0.0": {
         "dependencies": {
+          "IbgeClient": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Models": "1.0.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
-          "Services": "1.0.0",
           "Refit": "5.2.4"
         },
         "runtime": {
@@ -742,18 +742,21 @@
           }
         }
       },
-      "Models/1.0.0": {
-        "runtime": {
-          "Models.dll": {}
-        }
-      },
-      "Services/1.0.0": {
+      "IbgeClient/1.0.0": {
         "dependencies": {
           "Models": "1.0.0",
           "Refit": "5.2.4"
         },
         "runtime": {
-          "Services.dll": {}
+          "IbgeClient.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Models.dll": {}
         }
       }
     }
@@ -1149,12 +1152,12 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "Models/1.0.0": {
+    "IbgeClient/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Services/1.0.0": {
+    "Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

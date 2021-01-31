@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj" />
-    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\IbgeClient\IbgeClient.csproj" />
   </ItemGroup>
 
 </Project>
