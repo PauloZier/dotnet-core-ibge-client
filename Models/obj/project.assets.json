@@ -217,7 +217,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Newtonsoft.Json >= *"
+      "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
@@ -226,11 +226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj",
+      "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj",
       "projectName": "Models",
-      "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj",
+      "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj",
       "packagesPath": "/home/zier/.nuget/packages/",
-      "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/obj/",
+      "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/zier/.nuget/NuGet/NuGet.Config"
@@ -263,7 +263,7 @@
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[12.0.3, )"
           }
         },
         "imports": [

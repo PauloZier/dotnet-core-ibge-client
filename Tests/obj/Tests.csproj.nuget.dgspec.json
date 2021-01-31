@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj": {}
+    "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj": {}
   },
   "projects": {
-    "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj": {
+    "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj",
+        "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj",
         "projectName": "Models",
-        "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj",
+        "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj",
         "packagesPath": "/home/zier/.nuget/packages/",
-        "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/obj/",
+        "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/zier/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -57,14 +61,14 @@
         }
       }
     },
-    "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj": {
+    "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj",
+        "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj",
         "projectName": "Services",
-        "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj",
+        "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj",
         "packagesPath": "/home/zier/.nuget/packages/",
-        "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/obj/",
+        "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/zier/.nuget/NuGet/NuGet.Config"
@@ -78,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj": {
-                "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj"
+              "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj": {
+                "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj"
               }
             }
           }
@@ -118,14 +122,14 @@
         }
       }
     },
-    "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj": {
+    "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj",
+        "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj",
+        "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj",
         "packagesPath": "/home/zier/.nuget/packages/",
-        "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/obj/",
+        "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/zier/.nuget/NuGet/NuGet.Config"
@@ -139,11 +143,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj": {
-                "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj"
+              "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj": {
+                "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj"
               },
-              "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj": {
-                "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj"
+              "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj": {
+                "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj"
               }
             }
           }

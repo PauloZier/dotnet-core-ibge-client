@@ -1041,6 +1041,9 @@
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
         "compile": {
           "bin/placeholder/Models.dll": {}
         },
@@ -4123,11 +4126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj",
+      "projectUniqueName": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj",
+      "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj",
       "packagesPath": "/home/zier/.nuget/packages/",
-      "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/obj/",
+      "outputPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/zier/.nuget/NuGet/NuGet.Config"
@@ -4141,11 +4144,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj": {
-              "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Models/Models.csproj"
+            "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj": {
+              "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj"
             },
-            "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj": {
-              "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj"
+            "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj": {
+              "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj"
             }
           }
         }

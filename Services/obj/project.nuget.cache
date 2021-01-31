@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mg7zo1pi5TnXsu9yZLlSowk/crVyzSsgNnPjgcpTuFmzodN9LdbA4FjEpI5a/n9OTohMXUE8/lfnY/AGWoMHmg==",
+  "dgSpecHash": "QIDcSn6v2o05ZyOHy3TV1UbTOqCH2UAyIt+6g8yZwMGBxwB6J16Tl2jPObA7MJMoN1iLtxXyQyQ1E+qL7pK7ig==",
   "success": true,
-  "projectFilePath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Services/Services.csproj",
+  "projectFilePath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Services/Services.csproj",
   "expectedPackageFiles": [
     "/home/zier/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/home/zier/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "taCNlY7ysRZm5PG4A/7iGgaIm9PySEC6V0KAT+fMmJu982//8FYy0GjeipVR/37984bEprmkp69YdDXTr5vptg==",
+  "dgSpecHash": "a8r+5h9c7NbHZTVVsXxtXAB2Uo/VXOcD/xYojASduX0FxHn2Gk1lTexqPOxZEx7AjeVwbxksBbGwdV/q0cP2Jw==",
   "success": true,
-  "projectFilePath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-integration/Tests/Tests.csproj",
+  "projectFilePath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj",
   "expectedPackageFiles": [
     "/home/zier/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/home/zier/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
