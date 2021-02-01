@@ -5,5 +5,5 @@
 ```
 IIbgeAPI client = IbgeClientFactory.IbgeClient;
 
-IList<Distrito> distritos = await client.GetDistritos();
+IList<Distrito> distritos = await client.GetDistritosAsync();
 ```
