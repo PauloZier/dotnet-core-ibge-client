@@ -10,3 +10,4 @@
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Release/netstandard2.0/IbgeClient.csproj.CopyComplete
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Release/netstandard2.0/IbgeClient.dll
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Release/netstandard2.0/IbgeClient.pdb
+/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Release/netstandard2.0/IbgeClient.csprojAssemblyReference.cache

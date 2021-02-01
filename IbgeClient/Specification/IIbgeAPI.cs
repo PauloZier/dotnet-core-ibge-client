@@ -1,4 +1,4 @@
-using Models;
+using IbgeClient.Models;
 using Refit;
 using System.Collections.Generic;
 using System.Threading.Tasks;

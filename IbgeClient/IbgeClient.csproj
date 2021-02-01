@@ -2,14 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>IbgeClient</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Paulo Zier</Authors>
+    <Company>PauloZier</Company>
+    <PackageLicenseFile>MIT-LICENSE.txt</PackageLicenseFile>
+    <PackageDescription>Este pacote fornece métodos para consumir a API do IBGE localidades</PackageDescription>
+    <RepositoryUrl>https://github.com/PauloZier/dotnet-core-ibge-client.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="refit" Version="5.2.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj" />
+    <None Include="MIT-LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
   </ItemGroup>
 
 </Project>

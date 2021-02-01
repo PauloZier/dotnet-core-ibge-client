@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OAhXMWEnyQlzNFHdG0JLBSAwnK1hAglwhSuFuaEyKaHYFZjNFhJJa0MBk7gR/9ZXrtOP1mVsFa7PyXaID4smuw==",
+  "dgSpecHash": "+CzhnLl/I2ccDNN/cXhN0bpO/UDABNLXcfpnPArSxt2HdUVmNU9+omlMopVzW9LlEMkT1qVIxp/elMgg+2fOrA==",
   "success": true,
   "projectFilePath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Tests/Tests.csproj",
   "expectedPackageFiles": [

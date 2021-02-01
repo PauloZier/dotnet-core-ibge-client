@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using IbgeClient;
-using Models;
+using IbgeClient.Models;
 using System.Collections.Generic;
 
 namespace Tests

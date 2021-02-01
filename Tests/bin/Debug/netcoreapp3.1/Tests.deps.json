@@ -10,7 +10,6 @@
         "dependencies": {
           "IbgeClient": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
-          "Models": "1.0.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
           "Refit": "5.2.4"
@@ -744,19 +743,11 @@
       },
       "IbgeClient/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
           "Refit": "5.2.4"
         },
         "runtime": {
           "IbgeClient.dll": {}
-        }
-      },
-      "Models/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "Models.dll": {}
         }
       }
     }
@@ -1153,11 +1144,6 @@
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
     "IbgeClient/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

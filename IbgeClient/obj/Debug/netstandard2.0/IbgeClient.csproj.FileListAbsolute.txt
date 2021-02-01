@@ -1,13 +1,10 @@
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/bin/Debug/netstandard2.0/IbgeClient.deps.json
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/bin/Debug/netstandard2.0/IbgeClient.dll
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/bin/Debug/netstandard2.0/IbgeClient.pdb
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/bin/Debug/netstandard2.0/Models.dll
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/bin/Debug/netstandard2.0/Models.pdb
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.csprojAssemblyReference.cache
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/RefitStubs.g.cs
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.AssemblyInfoInputs.cache
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.AssemblyInfo.cs
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.csproj.CoreCompileInputs.cache
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.csproj.CopyComplete
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.dll
 /home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/obj/Debug/netstandard2.0/IbgeClient.pdb

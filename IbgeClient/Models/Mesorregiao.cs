@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Models
+namespace IbgeClient.Models
 {
     public class Mesorregiao
     {

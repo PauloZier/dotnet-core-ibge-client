@@ -1042,7 +1042,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
           "refit": "5.2.4"
         },
         "compile": {
@@ -1050,19 +1050,6 @@
         },
         "runtime": {
           "bin/placeholder/IbgeClient.dll": {}
-        }
-      },
-      "Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Models.dll": {}
         }
       }
     }
@@ -4103,18 +4090,12 @@
       "type": "project",
       "path": "../IbgeClient/IbgeClient.csproj",
       "msbuildProject": "../IbgeClient/IbgeClient.csproj"
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "IbgeClient >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
-      "Models >= 1.0.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
       "refit >= 5.2.4"
@@ -4146,9 +4127,6 @@
           "projectReferences": {
             "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/IbgeClient.csproj": {
               "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/IbgeClient.csproj"
-            },
-            "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj": {
-              "projectPath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/Models.csproj"
             }
           }
         }

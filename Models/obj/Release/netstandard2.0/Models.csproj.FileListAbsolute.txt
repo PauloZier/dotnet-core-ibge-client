@@ -1,9 +1,0 @@
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/bin/Release/netstandard2.0/Models.deps.json
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/bin/Release/netstandard2.0/Models.dll
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/bin/Release/netstandard2.0/Models.pdb
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/Release/netstandard2.0/Models.csprojAssemblyReference.cache
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/Release/netstandard2.0/Models.AssemblyInfoInputs.cache
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/Release/netstandard2.0/Models.AssemblyInfo.cs
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/Release/netstandard2.0/Models.csproj.CoreCompileInputs.cache
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/Release/netstandard2.0/Models.dll
-/home/zier/CSharp_Workspace/dotnet-core-ibge-client/Models/obj/Release/netstandard2.0/Models.pdb

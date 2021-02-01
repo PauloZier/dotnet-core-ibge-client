@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+diHSojYD9se9187zZQGEWm3VYa+U+UmTnsI+zIghOSAVFqSCskULzDOQj4l2gHlySq+YdX6YRnImBQOzyxQuA==",
+  "dgSpecHash": "LP4E/MUNY/TEgIDs1+wix4YuTYOOyXR61YARF7/D6fOe163lz+RWwgi0yC3msU5GXlPIHzyFUSa2oje7YAhRhw==",
   "success": true,
   "projectFilePath": "/home/zier/CSharp_Workspace/dotnet-core-ibge-client/IbgeClient/IbgeClient.csproj",
   "expectedPackageFiles": [

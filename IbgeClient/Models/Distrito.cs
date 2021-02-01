@@ -1,6 +1,6 @@
 using System;
 
-namespace Models
+namespace IbgeClient.Models
 {
     public class Distrito
     {
