@@ -8,21 +8,21 @@ namespace IbgeClient.Specification
     public interface IIbgeAPI
     {
         [Get("/distritos")]
-        Task<IList<Distrito>> GetDistritos();
+        Task<IList<Distrito>> GetDistritosAsync();
 
         [Get("/municipios")]
-        Task<IList<Municipio>> GetMunicipios();
+        Task<IList<Municipio>> GetMunicipiosAsync();
 
         [Get("/microrregioes")]
-        Task<IList<Microrregiao>> GetMicrorregioes();
+        Task<IList<Microrregiao>> GetMicrorregioesAsync();
 
         [Get("/mesorregioes")]
-        Task<IList<Mesorregiao>> GetMesorregioes();
+        Task<IList<Mesorregiao>> GetMesorregioesAsync();
 
         [Get("/estados")]
-        Task<IList<Estado>> GetEstados();
+        Task<IList<Estado>> GetEstadosAsync();
 
         [Get("/regioes")]
-        Task<IList<Regiao>> GetRegioes();
+        Task<IList<Regiao>> GetRegioesAsync();
     }
 }

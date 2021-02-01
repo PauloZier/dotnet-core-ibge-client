@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>IbgeClient</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Authors>Paulo Zier</Authors>
     <Company>PauloZier</Company>
     <PackageLicenseFile>MIT-LICENSE.txt</PackageLicenseFile>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>IbgeClient</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <authors>Paulo Zier</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">MIT-LICENSE.txt</license>

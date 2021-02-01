@@ -56,50 +56,50 @@ namespace IbgeClient.Specification
         }
 
         /// <inheritdoc />
-        Task<IList<Distrito>> IIbgeAPI.GetDistritos()
+        Task<IList<Distrito>> IIbgeAPI.GetDistritosAsync()
         {
             var arguments = new object[] {  };
-            var func = requestBuilder.BuildRestResultFuncForMethod("GetDistritos", new Type[] {  });
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetDistritosAsync", new Type[] {  });
             return (Task<IList<Distrito>>)func(Client, arguments);
         }
 
         /// <inheritdoc />
-        Task<IList<Municipio>> IIbgeAPI.GetMunicipios()
+        Task<IList<Municipio>> IIbgeAPI.GetMunicipiosAsync()
         {
             var arguments = new object[] {  };
-            var func = requestBuilder.BuildRestResultFuncForMethod("GetMunicipios", new Type[] {  });
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetMunicipiosAsync", new Type[] {  });
             return (Task<IList<Municipio>>)func(Client, arguments);
         }
 
         /// <inheritdoc />
-        Task<IList<Microrregiao>> IIbgeAPI.GetMicrorregioes()
+        Task<IList<Microrregiao>> IIbgeAPI.GetMicrorregioesAsync()
         {
             var arguments = new object[] {  };
-            var func = requestBuilder.BuildRestResultFuncForMethod("GetMicrorregioes", new Type[] {  });
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetMicrorregioesAsync", new Type[] {  });
             return (Task<IList<Microrregiao>>)func(Client, arguments);
         }
 
         /// <inheritdoc />
-        Task<IList<Mesorregiao>> IIbgeAPI.GetMesorregioes()
+        Task<IList<Mesorregiao>> IIbgeAPI.GetMesorregioesAsync()
         {
             var arguments = new object[] {  };
-            var func = requestBuilder.BuildRestResultFuncForMethod("GetMesorregioes", new Type[] {  });
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetMesorregioesAsync", new Type[] {  });
             return (Task<IList<Mesorregiao>>)func(Client, arguments);
         }
 
         /// <inheritdoc />
-        Task<IList<Estado>> IIbgeAPI.GetEstados()
+        Task<IList<Estado>> IIbgeAPI.GetEstadosAsync()
         {
             var arguments = new object[] {  };
-            var func = requestBuilder.BuildRestResultFuncForMethod("GetEstados", new Type[] {  });
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetEstadosAsync", new Type[] {  });
             return (Task<IList<Estado>>)func(Client, arguments);
         }
 
         /// <inheritdoc />
-        Task<IList<Regiao>> IIbgeAPI.GetRegioes()
+        Task<IList<Regiao>> IIbgeAPI.GetRegioesAsync()
         {
             var arguments = new object[] {  };
-            var func = requestBuilder.BuildRestResultFuncForMethod("GetRegioes", new Type[] {  });
+            var func = requestBuilder.BuildRestResultFuncForMethod("GetRegioesAsync", new Type[] {  });
             return (Task<IList<Regiao>>)func(Client, arguments);
         }
     }

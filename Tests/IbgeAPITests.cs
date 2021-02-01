@@ -15,7 +15,7 @@ namespace Tests
         [Test]
         public void TestDistritos()
         {
-            IList<Distrito> retorno = IbgeClientFactory.IbgeClient.GetDistritos().Result;
+            IList<Distrito> retorno = IbgeClientFactory.IbgeClient.GetDistritosAsync().Result;
 
             Assert.Pass();
         }
@@ -23,7 +23,7 @@ namespace Tests
         [Test]
         public void TestMunicipios()
         {
-            IList<Municipio> retorno = IbgeClientFactory.IbgeClient.GetMunicipios().Result;
+            IList<Municipio> retorno = IbgeClientFactory.IbgeClient.GetMunicipiosAsync().Result;
 
             Assert.Pass();
         }
@@ -31,7 +31,7 @@ namespace Tests
         [Test]
         public void TestMicrorregioes()
         {
-            IList<Microrregiao> retorno = IbgeClientFactory.IbgeClient.GetMicrorregioes().Result;
+            IList<Microrregiao> retorno = IbgeClientFactory.IbgeClient.GetMicrorregioesAsync().Result;
 
             Assert.Pass();
         }
@@ -39,7 +39,7 @@ namespace Tests
         [Test]
         public void TestMesorregioes()
         {
-            IList<Mesorregiao> retorno = IbgeClientFactory.IbgeClient.GetMesorregioes().Result;
+            IList<Mesorregiao> retorno = IbgeClientFactory.IbgeClient.GetMesorregioesAsync().Result;
 
             Assert.Pass();
         }
@@ -47,7 +47,7 @@ namespace Tests
         [Test]
         public void TestEstados()
         {
-            IList<Estado> retorno = IbgeClientFactory.IbgeClient.GetEstados().Result;
+            IList<Estado> retorno = IbgeClientFactory.IbgeClient.GetEstadosAsync().Result;
 
             Assert.Pass();
         }
@@ -55,7 +55,7 @@ namespace Tests
         [Test]
         public void TestRegioes()
         {
-            IList<Regiao> retorno = IbgeClientFactory.IbgeClient.GetRegioes().Result;
+            IList<Regiao> retorno = IbgeClientFactory.IbgeClient.GetRegioesAsync().Result;
 
             Assert.Pass();
         }

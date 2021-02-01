@@ -7,10 +7,10 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "IbgeClient/1.0.0": {
+      "IbgeClient/1.0.2": {
         "dependencies": {
-          "Models": "1.0.0",
           "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3",
           "Refit": "5.2.4"
         },
         "runtime": {
@@ -129,19 +129,11 @@
             "fileVersion": "4.6.28619.1"
           }
         }
-      },
-      "Models/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "Models.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "IbgeClient/1.0.0": {
+    "IbgeClient/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -229,11 +221,6 @@
       "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

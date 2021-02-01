@@ -1038,7 +1038,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "IbgeClient/1.0.0": {
+      "IbgeClient/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4086,7 +4086,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "IbgeClient/1.0.0": {
+    "IbgeClient/1.0.2": {
       "type": "project",
       "path": "../IbgeClient/IbgeClient.csproj",
       "msbuildProject": "../IbgeClient/IbgeClient.csproj"
@@ -4094,7 +4094,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "IbgeClient >= 1.0.0",
+      "IbgeClient >= 1.0.2",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
