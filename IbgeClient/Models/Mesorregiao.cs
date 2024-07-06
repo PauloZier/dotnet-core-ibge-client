@@ -1,4 +1,5 @@
 using System;
+using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 
 namespace IbgeClient.Models
@@ -10,6 +11,7 @@ namespace IbgeClient.Models
         public String Nome { get; set; }
     
         [JsonProperty("UF")]
+        [JsonPropertyName("UF")]
         public Estado Estado { get; set; }
     }
 }
